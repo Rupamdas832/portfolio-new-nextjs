@@ -6,7 +6,7 @@ const Footer = () => {
       <div className={styles.mainComponent}>
         <div className={styles.circle}></div>
         <div className={styles.hoverText}>
-          <h2>Let's Work Together</h2>
+          <h2>{`Let's`} Work Together</h2>
         </div>
       </div>
       <div className={styles.linksConatiner}>

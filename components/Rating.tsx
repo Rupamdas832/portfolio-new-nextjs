@@ -11,6 +11,7 @@ const Rating = ({ rating = 2 }) => {
             className={
               idx >= rating ? styles.circleUnchecked : styles.circleChecked
             }
+            key={idx}
           ></div>
         );
       })}

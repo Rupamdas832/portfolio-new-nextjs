@@ -5,8 +5,10 @@ import styles from "./Style.module.css";
 const ProjectHorizontalListSection = () => {
   return (
     <div className={styles.container}>
-      {projects.map((project) => {
-        return <ProjectCard key={project.title} project={project} />;
+      {projects.map((project, idx) => {
+        return (
+          <ProjectCard key={project.title} project={project} index={idx} />
+        );
       })}
     </div>
   );

@@ -53,24 +53,28 @@ const HeroSection = () => {
           <a
             href="https://rupamdas.hashnode.dev/integrate-paypal-checkout-in-your-react-application"
             target="_blank"
+            rel="noreferrer"
           >
             <li>Paypal Integration</li>
           </a>
           <a
             href="https://rupamdas.hashnode.dev/advantage-of-html5-video-over-gif"
             target="_blank"
+            rel="noreferrer"
           >
             <li>Advantage of HTML5 Video over GIF</li>
           </a>
           <a
             href="https://rupamdas.hashnode.dev/what-are-macro-and-micro-tasks-in-javascript"
             target="_blank"
+            rel="noreferrer"
           >
             <li>Macro and micro-tasks in JavaScript</li>
           </a>
           <a
             href="https://rupamdas.hashnode.dev/what-is-execution-context-in-javascript"
             target="_blank"
+            rel="noreferrer"
           >
             <li>What is execution context in javascript</li>
           </a>

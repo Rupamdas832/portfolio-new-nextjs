@@ -2,11 +2,19 @@ import styles from "./HeroSection.module.css";
 import buttonStyles from "../../../styles/button.module.css";
 import { skills } from "../../../utils/Data";
 import Rating from "../../Rating";
+import { useState } from "react";
+import ContactPopup from "../../ContactPopup";
 
 const HeroSection = () => {
-  console.log(styles);
+  const [isModal, setIsModal] = useState(false);
+
+  const toggleModal = () => {
+    setIsModal(!isModal);
+  };
+
   return (
     <div className={styles.container}>
+      {isModal && <ContactPopup setIsModal={setIsModal} />}
       <div className={styles.bodyContainer}>
         <p className={styles.subHeading}>👋my name is</p>
         <h1 className={styles.heading}> Rupam Das</h1>
@@ -17,8 +25,9 @@ const HeroSection = () => {
           Socket, and deployment
         </p>
         <div className={styles.buttonContainer}>
-          <button className={buttonStyles.filledButton}>Lets Talk</button>
-          <button className={buttonStyles.ghostButton}>My Latest Works</button>
+          <button className={buttonStyles.filledButton} onClick={toggleModal}>
+            Lets Talk
+          </button>
         </div>
       </div>
       <div className={styles.profileImageContainer}>
@@ -113,7 +122,13 @@ const HeroSection = () => {
             height="20px"
           />
           <p>
-            <a href="https://github.com/Rupamdas832">Github</a>
+            <a
+              href="https://github.com/Rupamdas832"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
           </p>
         </div>
         <div className={styles.socialItem}>
@@ -123,7 +138,11 @@ const HeroSection = () => {
             height="20px"
           />
           <p>
-            <a href="https://hashnode.com/60c995ed80c5541363dd316d/dashboard/posts">
+            <a
+              href="https://hashnode.com/60c995ed80c5541363dd316d/dashboard/posts"
+              target="_blank"
+              rel="noreferrer"
+            >
               Hashnode
             </a>
           </p>
@@ -135,7 +154,11 @@ const HeroSection = () => {
             height="20px"
           />
           <p>
-            <a href="https://www.linkedin.com/in/rupam-das-82362a105/">
+            <a
+              href="https://www.linkedin.com/in/rupam-das-82362a105/"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </p>
@@ -155,7 +178,13 @@ const HeroSection = () => {
             height="20px"
           />
           <p>
-            <a href="https://twitter.com/RupamDas832">Twitter</a>
+            <a
+              href="https://twitter.com/RupamDas832"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter
+            </a>
           </p>
         </div>
       </div>

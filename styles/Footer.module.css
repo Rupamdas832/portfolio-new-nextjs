@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.mainComponent {
+  cursor: pointer;
+}
+
 .circle {
   width: 300px;
   height: 300px;

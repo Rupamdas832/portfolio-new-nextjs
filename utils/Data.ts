@@ -26,7 +26,7 @@ export const works = [
     tech: ["Typescript", "Socket.io", "IVS", "Node", "CSS"],
     image:
       "https://media.istockphoto.com/id/1234822352/photo/young-muslim-woman-with-hijab-working-live-streaming-online-clothing-store-at-home.jpg?s=612x612&w=0&k=20&c=OynvGuQLSlyIr13freET4wIjJaAtt6z_Ox4BI3GbJzw=",
-    company: "Meesho",
+    company: "Thinkify Labs ( Meesho )",
     duration: "Sept 2022 - Present",
   },
   {
@@ -43,7 +43,7 @@ export const works = [
     tech: ["React", "Node", "Redux", "CSS"],
     image:
       "https://media.istockphoto.com/id/1306672282/photo/high-angle-view-online-shopping-mobile-app-holding-by-asian-chinese-housewife-in-front-of.jpg?s=612x612&w=0&k=20&c=RwMh1xztof77mppTVqVhG8HTuLRcym27Qf3IEOdH5G0=",
-    company: "Meesho",
+    company: "Thinkify Labs ( Meesho )",
     duration: "Sept 2021 - Aug 2022",
   },
 ];
@@ -60,7 +60,7 @@ export const projects = [
     link: "",
     description:
       "Shopping site for trending games and game developent products.",
-    tech: ["React", "CSS"],
+    tech: ["MERN", "Redux", "Paypal", "CSS"],
     duration: "",
   },
   {
@@ -75,7 +75,7 @@ export const projects = [
     link: "",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the",
-    tech: ["React", "CSS"],
+    tech: ["MERN", "Typescript", "Chakra"],
     duration: "",
   },
   {
@@ -90,7 +90,7 @@ export const projects = [
     link: "",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the",
-    tech: ["React", "CSS"],
+    tech: ["MERN", "Tailwind"],
     duration: "",
   },
   {
@@ -103,7 +103,7 @@ export const projects = [
     link: "",
     description:
       "One place for all the curated game development videos. Ranging from Unreal Engine 4, Blender, Substance Painer.. etc. Make your own playlist within the app.",
-    tech: ["React", "CSS"],
+    tech: ["MERN", "CSS"],
     duration: "",
   },
   {

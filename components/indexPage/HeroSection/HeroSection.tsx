@@ -2,7 +2,6 @@ import styles from "./HeroSection.module.css";
 import buttonStyles from "../../../styles/button.module.css";
 import { skills } from "../../../utils/Data";
 import Rating from "../../Rating";
-import profileImg from "../../../assets/profile.jpg";
 
 const HeroSection = () => {
   console.log(styles);
